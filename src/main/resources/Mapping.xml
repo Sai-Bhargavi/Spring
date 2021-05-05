@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context = "http://www.springframework.org/schema/context"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+    <!--
+    here this is used as xml bindings
+    <bean id = "vehicle" class = "org.bhargavi.Car"></bean>-->
+
+    <context:component-scan base-package="org.bhargavi"></context:component-scan>
+
+<!--
+    <bean id = "tyre" class = "org.bhargavi.Tyre">
+-->
+<!--        <property name="brand" value="CEAT"></property>-->
+<!--
+    </bean>
+-->
+</beans>
